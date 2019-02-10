@@ -1,0 +1,39 @@
+<html>
+    <head>
+            <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='css/signin.css') }}">
+            <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <title>
+            SIGN IN
+        </title>
+    </head>
+    <body>
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+                <!-- Tabs Titles -->
+            
+                <!-- Icon -->
+                <div class="fadeIn first">
+                <img src="../static/logo.png" id="icon" alt="User Icon" />
+                </div>
+            
+                <!-- Login Form -->
+                <form>
+                <input type="text" id="login" class="fadeIn second" name="user_name" placeholder="login">
+                <input type="email" id="login" class="fadeIn third" name="email" placeholder="email">
+                <input type="password" id="password" class="fadeIn fourth" name="password" placeholder="password">
+                <input type="submit" class="fadeIn fifth" value="sign in">
+                </form>
+            
+                <!-- Remind Passowrd -->
+                <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+                </div>
+            
+            </div>
+        </div>
+    </body>
+</html>

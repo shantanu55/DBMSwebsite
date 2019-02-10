@@ -1,0 +1,23 @@
+
+html{
+    font-family: 'Libre Baskerville', serif;
+}
+.topdiv{
+    /*height: 300px;*/
+    font-family: 'Libre Baskerville', serif;
+    padding: 20px;
+    background-color:pink;
+    font-size: 30px;
+    color: green;
+}
+.topdiv1{
+    margin: 20px;
+    padding: 40px;
+    display:inline-block;
+}
+.btns{
+    margin: 10px;
+}
+.imgtop{
+    margin: 30px;
+}

@@ -1,0 +1,67 @@
+#clblind .jfontsize-button {
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+    #clblind .jfontsize-button {
+      color: white;
+    }
+    #clblind .jfontsize-button:hover {
+  background-color: #eeb211 !important;
+  text-decoration: underline !important;
+  color: white;
+}
+
+.jfontsize-disabled, .jfontsize-disabled:hover {
+  border-bottom: 1px solid white;
+}
+#clblind .changecolor {
+  background-color: black;
+  border-radius: 50%;
+  color: yellow;
+  width:20px;
+  height:20px;
+  padding: 5px;
+}
+#clblind .changecolor:hover {
+  background-color: black;
+  color: yellow;
+}
+#clblind .changecolor2 {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width:20px;
+  height:20px;
+  padding: 5px;
+}
+
+}
+#clblind .jfontsize-button:hover {
+  background-color: #eeb211 !important;
+  text-decoration: underline !important;
+  color: white;
+}
+
+.jfontsize-disabled, .jfontsize-disabled:hover {
+  border-bottom: 1px solid white;
+}
+#clblind .changecolor {
+  background-color: black;
+  border-radius: 50%;
+  color:yellow;
+  width:20px;
+  height:20px;
+  padding: 5px;
+}
+#clblind .changecolor:hover {
+  background-color: black;
+  color: white;
+}
+#clblind .changecolor2 {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width:20px;
+  height:20px;
+  padding: 5px;
+}
